@@ -1,0 +1,102 @@
+.trending {
+  margin-bottom: 100px;
+}
+
+.tHeading {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 70px;
+  text-transform: uppercase;
+  color: #2c3891;
+  
+}
+
+.coins {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tLogo {
+  width: 50px;
+  height: 100%;
+}
+.cContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cTitle {
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2c3891;
+  margin: 0;
+}
+.symbol {
+  font-weight: 600;
+  font-size: 13px;
+  color: rgb(100, 100, 100);
+  margin-bottom: 3px;
+}
+
+.spanner {
+  font-weight: 700;
+  color: #2c3891;
+  font-size: 13px;
+}
+
+.price {
+  font-size: 10px;
+  text-align: right;
+}
+
+.hori {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+@media screen and (min-width: 1020px) {
+  .cContent {
+    padding-left: 30px;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+  }
+  .tCoinImage {
+    width: 100px;
+    height: 80px;
+  }
+  .tLogo {
+    width: 100%;
+    height: 100%;
+  }
+  .tCoinTitle {
+    width: 100%;
+  }
+  .cTitle {
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #2c3891;
+  }
+  .tCoinPrice {
+    width: 100%;
+  }
+  .spanner {
+    font-weight: 700;
+    color: #2c3891;
+    font-size: 20px;
+  }
+  .symbol {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 10px;
+  }
+}
