@@ -1,18 +1,23 @@
 .LoginWrapper {
-  height: 200vh;
   width: 100%;
+  height: 80vh;
 }
 
 .loginImage {
   width: 100%;
+  display: none;
 }
 
 .loginContent {
   width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .lHeading {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   color: #0044ff;
 }
 
@@ -57,5 +62,6 @@ label {
   }
   .loginImage {
     width: 100%;
+    display: block;
   }
 }
