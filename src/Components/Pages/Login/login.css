@@ -35,7 +35,7 @@ label {
   height: 40px;
   width: 100%;
   border-radius: 5px;
-  margin: 10px 0;
+  margin-top: 10px 0;
   font-size: 18px;
 }
 
@@ -45,7 +45,7 @@ label {
     align-items: center;
     justify-content: center;
   }
-  .loginImage{
+  .loginImage {
     width: 100%;
   }
 }
