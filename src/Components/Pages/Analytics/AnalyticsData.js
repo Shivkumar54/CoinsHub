@@ -11,8 +11,6 @@ import {
 } from "recharts"
 import "./ana.css"
 const Analytics = () => {
-
-
   const [market, setMarket] = useState([])
   useEffect(() => {
     const getmarketPrice = async () => {
@@ -24,27 +22,23 @@ const Analytics = () => {
     getmarketPrice()
   }, [])
 
-
-  
-    const lists = Object.values(market).map((eachM) => {
-      const [timeStamp, p] = eachM
-      const normalDate = new Date(timeStamp).toLocaleDateString("en")
-      return {
-        Date: normalDate,
-        Price: p,
-      }
-    })
-  
-
+  const lists = Object.values(market).map((eachM) => {
+    const [timeStamp, p] = eachM
+    const normalDate = new Date(timeStamp).toLocaleDateString("en")
+    return {
+      Date: normalDate,
+      Price: p,
+    }
+  })
 
   return (
-    <ResponsiveContainer width="100%" height={400}>
+    <ResponsiveContainer width="100%" height="100%">
       <div className="DefaultContentHolder container">
         <h1>Analytics Content</h1>
         <div className="Reacharts ">
           <AreaChart
-            width={350}
-            height={300}
+            width={500}
+            height={400}
             data={lists}
             margin={{
               top: 10,
@@ -72,4 +66,3 @@ const Analytics = () => {
 }
 
 export default Analytics
-
