@@ -36,6 +36,7 @@ const Navbar = () => {
                 Coins{" "}
               </Link>
             </li>
+
             <li>
               <Link className="linker" to="/analytics">
                 {" "}

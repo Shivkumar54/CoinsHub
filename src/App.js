@@ -9,6 +9,7 @@ import Coins from "./Components/Pages/Coins/Coins"
 import Home from "./Components/Pages/Home/Home"
 import Login from "./Components/Pages/Login/Login"
 import Categories from "./Components/Pages/Categories/Categories"
+import CoinDetails from "./Components/Pages/CoinDetails/CoinDetails"
 // Pages
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/coins" element={<Coins />} />
+          <Route path="/coins/:id" element={<CoinDetails />} />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/login" element={<Login />} />
         </Route>
@@ -29,9 +31,11 @@ function App() {
 
 export default App
 
-{/* <Navbar />
+{
+  /* <Navbar />
 <Home />
 <Trending />
 <Coins />
 <Analytics />
-<Login /> */}
+<Login /> */
+}
