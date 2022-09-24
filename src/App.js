@@ -21,7 +21,7 @@ function App() {
           <Route path="/categories" element={<Categories />} />
           <Route path="/coins" element={<Coins />} />
           <Route path="/coins/:id" element={<CoinDetails />} />
-          <Route path="/analytics" element={<Analytics />} />
+          <Route path="/tutorials" element={<Analytics />} />
           <Route path="/login" element={<Login />} />
         </Route>
       </Routes>

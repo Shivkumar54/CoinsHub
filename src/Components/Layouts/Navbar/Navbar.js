@@ -40,7 +40,7 @@ const Navbar = () => {
             <li>
               <Link className="linker" to="/analytics">
                 {" "}
-                Analytics
+                Tutorials
               </Link>
             </li>
             <li>
@@ -78,9 +78,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="linker mdLinker" to="/analytics">
+            <Link className="linker mdLinker" to="/tutorials">
               <IoMdAnalytics size={22} />
-              Analytics
+              Tutorials
             </Link>
           </li>
           <li>
