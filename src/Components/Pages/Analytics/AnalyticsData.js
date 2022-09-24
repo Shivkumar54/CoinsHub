@@ -1,5 +1,7 @@
 import axios from "axios"
 import React, { useState, useEffect } from "react"
+
+import { useParams } from "react-router-dom"
 import {
   AreaChart,
   Area,
@@ -9,18 +11,22 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts"
+import CoinDetails from "../CoinDetails/CoinDetails"
 import "./ana.css"
 const Analytics = () => {
+  const { id } = useParams()
+
   const [market, setMarket] = useState([])
+
   useEffect(() => {
     const getmarketPrice = async () => {
       const getMarket = await axios.get(
-        `https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=130`
+        `https://api.coingecko.com/api/v3/coins/${id}/market_chart?vs_currency=usd&days=180`
       )
       setMarket(getMarket.data.prices)
     }
     getmarketPrice()
-  }, [])
+  }, [id])
 
   const lists = Object.values(market).map((eachM) => {
     const [timeStamp, p] = eachM
@@ -32,13 +38,12 @@ const Analytics = () => {
   })
 
   return (
-    <ResponsiveContainer width="100%" height="100%">
+    <ResponsiveContainer width="100%" height={400}>
       <div className="DefaultContentHolder container">
-        <h1>Analytics Content</h1>
         <div className="Reacharts ">
           <AreaChart
-            width={500}
-            height={400}
+            width={350}
+            height={300}
             data={lists}
             margin={{
               top: 10,
@@ -59,6 +64,7 @@ const Analytics = () => {
               fill="#8884d8"
             />
           </AreaChart>
+          <CoinDetails />
         </div>
       </div>
     </ResponsiveContainer>
