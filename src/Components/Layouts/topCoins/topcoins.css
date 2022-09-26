@@ -33,23 +33,23 @@
 }
 
 .cTitle {
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 16px;
   text-transform: capitalize;
   color: #000000;
   margin: 0;
 }
 .symbol {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 10px;
   color: rgb(100, 100, 100);
   margin-bottom: 3px;
 }
 
 .spanner {
-  font-weight: 700;
+  font-weight: 600;
   color: #272727;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .price {
