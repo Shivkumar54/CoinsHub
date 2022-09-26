@@ -67,9 +67,12 @@
   margin-top: 50px;
 }
 
+
+
+
 @media screen and (max-width: 1020px) {
   .cimage {
-    width: 45px;
+    width: 60px;
   }
   .cSpanner {
     font-weight: 500;
