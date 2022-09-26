@@ -1,24 +1,24 @@
 .LoginWrapper {
   width: 100%;
-  height: 80vh;
+  height: auto;
 }
 
 .loginImage {
   width: 100%;
-  display: none;
 }
 
 .loginContent {
   width: 100%;
-  height: 70vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .lHeading {
-  font-weight: 700;
-  font-size: 40px;
-  color: #0044ff;
+  font-weight: 400;
+  font-size: 30px;
+  color: #000000;
 }
 
 label {
@@ -32,7 +32,7 @@ label {
   padding: 10px 10px;
   width: 100%;
   border-radius: 5px;
-  border: 1px solid #0044ff;
+  border: 1px solid #6d6d6d;
 }
 
 .forgot {
@@ -62,5 +62,8 @@ label {
   .loginImage {
     width: 100%;
     display: block;
+  }
+  .lHeading {
+    font-weight: 700;
   }
 }
