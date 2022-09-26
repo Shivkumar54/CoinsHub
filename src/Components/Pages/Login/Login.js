@@ -11,7 +11,7 @@ const Login = () => {
           <img src={LoginLogo} alt="" />
         </div>
         <div className="loginContent">
-          <h2 className="lHeading">Hello Welcome Back</h2>
+          <h2 className="lHeading"> Welcome Back User</h2>
           <form>
             <label htmlFor="">Enter UserName</label>
             <br />
