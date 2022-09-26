@@ -1,0 +1,32 @@
+.ctImager {
+  margin-bottom: 10px;
+}
+
+.ctName {
+  font-size: 18px;
+  font-weight: 800;
+}
+.cList {
+  width: 360px;
+  height: 250px;
+  margin: 5px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  background-color: rgb(41, 38, 38);
+  color: white;
+  border-radius: 5px;
+}
+.ctSpanner {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.ctSubName {
+  font-size: 13px;
+  color: rgb(207, 207, 207);
+}
+
+@media screen and (max-width: 768px) {
+  .cList {
+    margin: 5px 0px;
+  }
+}

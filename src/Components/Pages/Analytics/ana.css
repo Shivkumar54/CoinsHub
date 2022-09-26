@@ -1,4 +1,40 @@
-.responsive{
-    width: 50%;
-    height: 50%
+.tContentHolder {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+}
+
+.imageer {
+  width: 100%;
+}
+.tBanner {
+  width: 100%;
+  object-fit: cover;
+}
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.divver {
+  width: 100%;
+  height: auto;
+}
+
+.eadDP {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .tContentHolder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .eadDP {
+    font-size: 17px;
+    padding: 10px 0;
+  }
 }

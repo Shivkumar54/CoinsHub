@@ -67,11 +67,15 @@ const Caurosal = () => {
     },
     {
       id: 4,
-      img: "https://zipmex.com/static/cdc63403b370030a59c0000b0de91b70/13.jpg",
+      img: "https://miro.medium.com/max/745/1*Jevz6S9lFr9inTF9oCMUbg.jpeg",
     },
     {
       id: 5,
       img: "https://miro.medium.com/max/1400/1*Zx9rS0XsTQvoZLj6i7Gg5w.png",
+    },
+    {
+      id: 6,
+      img: "https://www.huobi.com/learn/wp-content/uploads/2022/01/the-company-g599231872_1920.jpg?w=640",
     },
   ]
 
