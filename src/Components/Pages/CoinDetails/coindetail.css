@@ -1,0 +1,117 @@
+.flexer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.cimage {
+  width: 150px;
+}
+.cSpanner {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.cCoiner {
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.cdspan {
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.links {
+  margin-top: 50px;
+}
+.backgrounder {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+}
+.div1 {
+  width: 100%;
+}
+.div2 {
+  width: 100%;
+}
+.div3 {
+  width: 100%;
+}
+.dBtn {
+  padding: 10px 30px;
+  text-align: left;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.DSpanner {
+  font-weight: 700;
+}
+
+.dLinker {
+  text-decoration: none;
+  padding: 0px 20px;
+  height: 150px;
+  width: 100%;
+  font-size: 25px;
+}
+
+.score {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1020px) {
+  .cimage {
+    width: 45px;
+  }
+  .cSpanner {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .flexer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 5px;
+    margin: 0;
+  }
+  .cCoiner {
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .cdspan {
+    font-weight: 800;
+    font-size: 24px;
+  }
+  .coindesc {
+    font-size: 14px;
+    overflow-x: hidden;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .backgrounder {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+  }
+  .score {
+    margin-bottom: 10px;
+    overflow-x: auto;
+  }
+  th {
+    font-size: 17px;
+    padding-right: 30px;
+  }
+}

@@ -42,7 +42,7 @@ const Topcoin = () => {
                     </h5>
                     <h5 className="symbol price ">
                       <span className="spanner price">PriceBTC - </span>
-                      {eachCoin.item.price_btc}
+                      {eachCoin.item.price_btc.toFixed(10)}
                     </h5>
                   </div>
                 </div>

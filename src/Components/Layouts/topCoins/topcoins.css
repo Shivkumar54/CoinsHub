@@ -6,8 +6,8 @@
   font-weight: 700;
   font-size: 25px;
   margin-top: 30px;
-  text-transform: uppercase;
-  color: #2c3891;
+  text-transform: capitalize;
+  color: #000000;
   
 }
 
@@ -20,23 +20,23 @@
 }
 
 .tLogo {
-  width: 50px;
+  width: 30px;
   height: 100%;
 }
 .cContent {
   width: 100%;
   height: 100%;
   display: flex;
-  gap: 30px;
-  justify-content: center;
+  gap: 20px;
+  justify-content: space-between;
   align-items: center;
 }
 
 .cTitle {
   font-weight: 700;
-  font-size: 15px;
-  text-transform: uppercase;
-  color: #2c3891;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #000000;
   margin: 0;
 }
 .symbol {
@@ -48,7 +48,7 @@
 
 .spanner {
   font-weight: 700;
-  color: #2c3891;
+  color: #272727;
   font-size: 13px;
 }
 
@@ -74,7 +74,6 @@
   font-size: 25px;
   margin-top: 70px;
   text-transform: uppercase;
-  color: #2c3891;
   
 }
 
@@ -93,14 +92,12 @@
     font-weight: 700;
     font-size: 28px;
     text-transform: uppercase;
-    color: #2c3891;
   }
   .tCoinPrice {
     width: 100%;
   }
   .spanner {
     font-weight: 700;
-    color: #2c3891;
     font-size: 20px;
   }
   .symbol {

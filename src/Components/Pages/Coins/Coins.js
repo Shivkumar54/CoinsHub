@@ -7,7 +7,9 @@ const Coins = () => {
 
   useEffect(() => {
     const getCoinsFromAPI = async () => {
-      const getCoins = await axios.get(`https://api.coingecko.com/api/v3/coins/`)
+      const getCoins = await axios.get(
+        `https://api.coingecko.com/api/v3/coins/`
+      )
       setCoins(getCoins.data)
     }
     getCoinsFromAPI()
@@ -22,7 +24,7 @@ const Coins = () => {
               {coins.map((eachCoin) => {
                 return (
                   <div
-                    className="col-6 col-md-4 col-lg-3  innerContent mx-auto"
+                    className="col-6 col-md-4 col-lg-2  innerContent mx-auto"
                     key={eachCoin.id}
                   >
                     <Link className="linker" to={`/coins/${eachCoin.id}`}>
@@ -30,8 +32,9 @@ const Coins = () => {
                         src={eachCoin.image.large}
                         alt=""
                         className="coinsLogo"
+                        width="100%"
                       />
-                      <h4 className="coinsName">{eachCoin.name}</h4>
+                      <h2 className="coinsName">{eachCoin.name}</h2>
                     </Link>
                   </div>
                 )

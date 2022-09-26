@@ -1,41 +1,40 @@
-.innerContent {
-  transition: transform 0.5s; /* Animation */
-}
+
 
 .innerContent:hover {
   transform: scale(
     1.07
-  ); 
-}
-
-.innerContent {
+    ); 
+  }
+  
+  .innerContent {
+  transition: transform 0.5s;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
-  gap: 15px;
-  padding: 20px 10px;
+  gap: 70px;
+  padding: 10px 5px;
   border-radius: 10px;
   width: 200px;
- box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   margin: 15px 0;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .coinsLogo {
-  width: 100px;
+  width: 30px;
 }
 
 .coinsName {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
-  color: #2f4098;
+  color: #000000;
 }
 
 .cHeading {
   font-size: 25px;
   font-weight: 700;
-  background-color: #2f4098;
+  background-color: #000000;
   color: white;
   text-align: center;
   padding: 15px 0;
@@ -45,32 +44,29 @@
 @media screen and (max-width: 768px) {
   .coinsHolder {
     height: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
   .innerContent {
-    padding: 5px 0px;
-    margin: 10px;
+    padding: 20px 20px;
     width: 150px;
-    height: 150px;
-    border-radius: 10px;
+    height: 60px;
+    border-radius: 5px;
   }
 
   .coinsLogo {
-    width: 80px;
+    width: 25px;
     margin-top: 5px;
+    margin-bottom: 5px;
   }
   .coinsName {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 700;
-    color: #2f4098;
   }
   .cHeading {
     font-size: 20px;
     font-weight: 700;
-    background-color: #2f4098;
-    color: white;
     text-align: center;
     padding: 15px 0;
     text-transform: uppercase;
   }
-}
+} 
