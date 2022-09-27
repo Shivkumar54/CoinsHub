@@ -60,15 +60,12 @@
   padding: 0px 20px;
   height: 150px;
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .score {
   margin-top: 50px;
 }
-
-
-
 
 @media screen and (max-width: 1020px) {
   .cimage {
@@ -118,6 +115,6 @@
     padding-right: 30px;
   }
   .dLinker {
-  font-size: 18px;
-}
+    font-size: 18px;
+  }
 }

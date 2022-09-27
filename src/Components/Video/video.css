@@ -1,5 +1,6 @@
 .wrapper {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   gap: 30px;
@@ -7,9 +8,9 @@
 .player-wrapper {
   width: 100%;
   height: 50vh;
-  margin-top: 30px;
 }
 .texter {
+  margin-top: 30px;
   width: 100%;
 }
 .ttexter {
@@ -33,12 +34,11 @@
     width: 100%;
     height: 30vh;
     padding-top: 0;
-    margin-top: 30px;
     display: flex;
+    margin-bottom: 70px;
   }
   .texter {
     width: 100%;
-    margin-bottom: 70px;
   }
   .ttexter {
     font-size: 35px;

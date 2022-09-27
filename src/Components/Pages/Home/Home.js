@@ -25,7 +25,7 @@ const Home = () => {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
-          <button className="search-btn">Search Coin</button>
+          <button className="search-btn">Get Details </button>
           <span></span>
         </form>
       </div>
