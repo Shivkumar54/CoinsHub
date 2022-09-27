@@ -81,6 +81,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .innerContent:hover {
+  transform: scale(1.01);
+}
   .coinsHolder {
     height: 100%;
     margin-bottom: 70px;
