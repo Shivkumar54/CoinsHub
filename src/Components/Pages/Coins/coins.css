@@ -15,7 +15,47 @@
   width: 200px;
   margin: 10px 0;
   color: white;
-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  position: relative;
+}
+.hoverState {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.hoverContent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.hInnerText {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+.innerContent:hover .hoverState {
+  opacity: 1;
 }
 
 .coinsLogo {

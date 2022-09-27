@@ -35,12 +35,6 @@ const Coins = () => {
                         width="100%"
                       />
                       <h2 className="coinsName">{eachCoin.name}</h2>
-
-                      <div className="hoverState">
-                        <div className="hoverContent">
-                          <h5 className="hInnerText" >View Details</h5>
-                        </div>
-                      </div>
                     </Link>
                   </div>
                 )
